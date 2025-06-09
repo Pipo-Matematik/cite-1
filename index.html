@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+</head>
+  <body>
+    <div class="started-list" id="started-list">
+        <div class="started-text-conteiner">CerberHouse<br><span id="a1">Наш майнкрафт проект</span></div>
+        <button class="started-list-button" onclick="showSite()">На главную</button>
+    </div>
+
+    
+
+    <div class="body-site" id="body-site">
+    
+    <header>
+        <div class="header-name">
+            <span class="header-name-span-1">CerberHouse</span><br>
+            <span class="header-name-span-2">Главная</span>
+        </div>
+        <nav>
+            <button class="header-nav-link" onclick="showR01()">Правила</button>
+            <button class="header-nav-link" onclick="showR02()">Как просоедиться</button>
+            <button class="header-nav-link" onclick="showR03()">Карта сервера</button>
+            <button class="header-nav-link" onclick="showR04()">Наши учатинки</button>
+        </nav>
+    </header>
+    <main>
+        
+
+
+        <div class="main-div-1" id="r00">
+            <div class="main-div-1-div">Про сервер</div>
+            <div class="main-div-1-text">
+                CerberHouse - это крутой майнкрафт сервер где ребята:<br>
+                <span class="main-div-1-text-span">*Общаются</span><br>
+                <span class="main-div-1-text-span">*Дружат</span><br>
+                <span class="main-div-1-text-span">*Играют</span><br>
+                <span class="main-div-1-text-span">*Веселяться</span><br>
+                <span class="main-div-1-text-span">*Снимают видео</span><br>
+                А так же делают всякие хайповые штуки
+            </div>
+        </div>
+        <div class="main-div-2" id="r01">
+            <div class="main-div-2-div" id="rules">Правила</div>
+            <div class="main-div-2-text">
+                <span class="main-div-2-text-span-a">Нельзя!</span><br>
+                <span class="main-div-2-text-span">1. Воровать </span><br>
+                <span class="main-div-2-text-span">2. Гриферить </span><br>
+                <span class="main-div-2-text-span">3. Читы</span><br>
+                <span class="main-div-2-text-span">4. Разговоры на тему войны/политики</span><br>
+                <span class="main-div-2-text-span">5. Осуждение каких либо национальностей</span><br>
+                <span class="main-div-2-text-span-a">Будет варн!</span><br>
+                <span class="main-div-2-text-span">1. Постройки на чужых территорях</span><br>
+                <span class="main-div-2-text-span">2. Заходить в чужые дома без спроса</span><br>
+                <span class="main-div-2-text-span-a">Предупреждения!</span><br>
+                <span class="main-div-2-text-span">1. Если вы построете что то,
+                 что категорически не понравиться участникам, придеться это снести </span><br>
+                <span class="main-div-2-text-span">На своей терретории вы должны поставить табличку со своим ником</span><br>
+            </div>
+        </div>
+        <div class="main-div-3" id="r02">
+            <div class="main-div-3-div" id="how-join">Как присоедениться</div>
+            <div class="main-div-3-text">
+                <span class="main-div-3-text-span-a">Перейти в тг канал cerber_house</span><br>
+                <span class="main-div-3-text-span">прочитать все правила</span><br>
+                <span class="main-div-3-text-span">отправить анкету владельцу</span><br>
+                <span class="main-div-3-text-span">быть хорошим игроком</span><br>
+            </div>
+        </div>
+        <div class="main-div-4" id="r03">
+            <div class="main-div-4-div" id="map">Карта сервера</div>
+            <div class="main-div-4-text">le le le</div>
+        </div>
+        <div class="main-div-5" id="r04">
+            <div class="main-div-5-div" id="members">Наши участники</div>  
+            <div class="memeber-conteiner">
+                <div class="member-item" id="mi-1">
+                  <img src="https://i.ibb.co/4g8c7LYR/photo-5348092203693633355-m.jpg" class="member-img">
+                  <div class="member-nick">
+                    <span class="just-nick">almazik</span>
+                    <button class="know-more" onclick="ShowHB1()">Больше...</button>
+                  </div>
+
+                  <div class="hidden-block" id="hb-1">
+                      Возраст: 12 лет<br>
+                      Называть: Маря<br>
+                      Ник на сервере: almazik7595<br>
+                      Ник в телеге: Маря<br>
+                      Вермя: МСК <br>
+                      Описание: ---<br>
+                      <button class="hide" onclick="HideHB1()">Скрыть</button>
+                  </div> 
+                </div>
+
+                <div class="member-item" id="mi-2">
+                  <img src="https://i.ibb.co/4g8c7LYR/photo-5348092203693633355-m.jpg" class="member-img">
+                  <div class="member-nick">
+                    <span class="just-nick">almazik</span>
+                    <button class="know-more" onclick="ShowHB2()">Больше...</button>
+                  </div>
+
+                  <div class="hidden-block"  id="hb-2">
+                      Возраст: 12 лет<br>
+                      Называть: Маря<br>
+                      Ник на сервере: almazik7595<br>
+                      Ник в телеге: Маря<br>
+                      Вермя: МСК <br>
+                      Описание: ---<br>
+                      <button class="hide" onclick="HideHB2()">Скрыть</button>
+                  </div> 
+                </div>
+
+                <div class="member-item" id="mi-3">
+                    <img src="https://i.ibb.co/4g8c7LYR/photo-5348092203693633355-m.jpg" class="member-img">
+                  <div class="member-nick">
+                    <span class="just-nick">almazik</span>
+                    <button class="know-more" onclick="ShowHB3()">Больше...</button>
+                  </div>
+
+                  <div class="hidden-block"  id="hb-3">
+                      Возраст: 12 лет<br>
+                      Называть: Маря<br>
+                      Ник на сервере: almazik7595<br>
+                      Ник в телеге: Маря<br>
+                      Вермя: МСК <br>
+                      Описание: ---<br>
+                      <button class="hide" onclick="HideHB3()">Скрыть</button>
+                  </div> 
+                </div>
+
+                <div class="member-item" id="mi-4">
+                    <img src="https://i.ibb.co/4g8c7LYR/photo-5348092203693633355-m.jpg" class="member-img">
+                  <div class="member-nick">
+                    <span class="just-nick">almazik</span>
+                    <button class="know-more" onclick="ShowHB4()">Больше...</button>
+                  </div>
+
+                  <div class="hidden-block"  id="hb-4">
+                      Возраст: 12 лет<br>
+                      Называть: Маря<br>
+                      Ник на сервере: almazik7595<br>
+                      Ник в телеге: Маря<br>
+                      Вермя: МСК <br>
+                      Описание: ---<br>
+                      <button class="hide" onclick="HideHB4()">Скрыть</button>
+                  </div> 
+                </div>
+
+                <div class="member-item" id="mi-5">
+                    <img src="https://i.ibb.co/4g8c7LYR/photo-5348092203693633355-m.jpg" class="member-img">
+                  <div class="member-nick">
+                    <span class="just-nick">almazik</span>
+                    <button class="know-more" onclick="ShowHB5()">Больше...</button>
+                  </div>
+                  
+                  <div class="hidden-block"  id="hb-5">
+                      Возраст: 12 лет<br>
+                      Называть: Маря<br>
+                      Ник на сервере: almazik7595<br>
+                      Ник в телеге: Маря<br>
+                      Вермя: МСК <br>
+                      Описание: ---<br>
+                      <button class="hide"  onclick="HideHB5()">Скрыть</button>
+                  </div> 
+                </div>
+
+            </div>
+                
+        </div>
+        
+    
+
+
+        
+    </main>
+    </div>
+
+    <script src="main.js"></script>
+  </body>
+</html>  
